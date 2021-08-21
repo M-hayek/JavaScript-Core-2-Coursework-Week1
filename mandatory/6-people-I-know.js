@@ -411,6 +411,12 @@ This time, I only want the full names ("<firstname> <lastname>") of my friends w
 */
 
 let friendsWhoAreColleaguesOfStacie = [];
+
+  friends.forEach(friend =>{
+    friend.colleagues.filter((colleague) =>{
+      if(colleague.name === "Stacie Villarreal"){
+        friendsWhoAreColleaguesOfStacie.push(`${friend.name.first} ${friend.name.last}`)
+      } 
 /*
 
 5) Find "Multi-tasking" colleagues

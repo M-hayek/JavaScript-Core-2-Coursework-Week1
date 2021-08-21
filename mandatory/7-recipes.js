@@ -24,5 +24,25 @@ You should write and log at least 5 recipes
 
 **/
 
-let recipes = {};
+let recipes = [ 
+    { title: "Pasta", 
+      servings: 4,
+    ingredients : [ "500 grams of Pasta", "Collection of Vegetables" , "sauce"]
+},
+{ title: "Rice", 
+      servings: 3,
+    ingredients : [ "1/2 cup of Rice", "hot water" , "Salt"]
+},
+{
+    title: "Grilled Chicked", 
+    servings: 2,
+  ingredients : [ " One Breat", "Vegetables" , "Salt"]
+}
+];
 
+
+console.log(recipes[0].title);
+console.log(recipes[0].servings);
+console.log(recipes[0].ingredients[0]);
+console.log(recipes[0].ingredients[1]);
+console.log (recipes[0].ingredients[2]);
